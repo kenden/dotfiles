@@ -5,6 +5,8 @@
 #
 #
 #
+alias ..='cd ..'
+alias c='clear'
 alias ll='ls -Alrth'
 alias cds='cd ~/dev/stylight/'
 
@@ -16,6 +18,10 @@ alias gdiff='git diff'
 alias gcheck='git checkout'
 
 alias dex='docker exec -it'
+
+alias vi='vim'  # needed after installing vim with brew, else vi points to the older version
+
+
 
 #export LC_CTYPE=en_US.UTF-8
 
