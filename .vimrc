@@ -1,6 +1,8 @@
 set nocompatible              " be iMproved, required
 filetype off                  " required
 
+" Install Vundly from https://github.com/VundleVim/Vundle.vim
+
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
@@ -36,5 +38,7 @@ if has('gui_running')
 else
     set background=dark
 endif
+
+" Get theme from https://github.com/sickill/vim-monokai
 colorscheme Monokai
 "let g:solarized_termcolors=256
