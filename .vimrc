@@ -16,6 +16,8 @@ Plugin 'klen/python-mode'
 Plugin 'fatih/vim-go'
 Plugin 'valloric/youcompleteme'
 Plugin 'flazz/vim-colorschemes'
+Plugin 'cespare/vim-toml'
+Plugin 'martinda/jenkinsfile-vim-syntax'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
